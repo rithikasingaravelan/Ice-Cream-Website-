@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women</title>
+
+    <!--Bootstrap cdn for css-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+ <!--Bootstrap 5 icons-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    
+   <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Mono:wght@500&family=Ubuntu:wght@500&display=swap');
+
+        header{
+            height:50vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url("./background.jpg");
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            color:white;
+            font-family: 'Roboto Mono', monospace;
+            
+        }
+        a i{
+            color: #fff;
+            font-size: 50px;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+
+        h3{
+              font-family: 'Abril Fatface', cursive;
+              font-size: 25px;
+            }
+            .card{
+              cursor:pointer;
+            }
+            .card:hover {
+              transform: scale(1.04);
+              z-index: 2;
+              overflow: hidden
+            }
+            #btn1{
+              background-color: #cc6600;
+              border: none;
+              border-radius: 50px;
+            }
+            #btn1:hover{
+                border:1px solid #cc6600;
+                background-color: #fff;
+                color:#cc6600;
+            }
+            footer{
+              background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("./b.jpg");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              color:#fff;
+              
+              
+            }
+            footer p{
+              font-family: 'Ubuntu', sans-serif;
+            }
+            footer h5{
+              font-family: 'Roboto Mono', monospace;
+              font-size: 20px;
+            }
+            #footer1 li{
+              list-style-type: none;
+              font-family: 'Ubuntu', sans-serif;
+              cursor: pointer;
+              
+            }
+            #footer2 li{
+              list-style-type: none;
+              float:left;
+              font-family: 'Ubuntu', sans-serif;
+              cursor: pointer;
+              font-size: 22px;
+            }
+
+            ::-webkit-scrollbar {
+            width: 0.625rem;
+           } 
+           ::-webkit-scrollbar-track {
+             background: white; 
+           } 
+           ::-webkit-scrollbar-thumb {
+             background:#cc6600; 
+           } 
+        
+    </style>
+</head>
+<body>
+   
+<header>
+    <a href="./index.html"><i class="bi bi-arrow-left-circle "></i></a>
+    <h1>Explore our <span style="font-size: 50px; color:  #ff9933">Products</span></h1>
+</header>
+
+   
+<!--row 1-->
+<div class="row mt-3">
+    <div class="col-md-3">
+      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+        <img src="https://i.pinimg.com/564x/7c/48/da/7c48daabac639e79f3c65ffc12e99514.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Coconut Ice Cream Pops</h3>
+          <h4 class="card-text">₹219</h4>
+          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+        <img src="https://i.pinimg.com/736x/2d/0f/41/2d0f4124c9435b2349ebc8abff93d1e7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Chocolate Ice Cream</h3>
+          <h4 class="card-text">₹119</h4>
+          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+        <img src="https://i.pinimg.com/564x/ef/17/2f/ef172f8432dfbf0b58c946bb3e5e1c2c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Mango Turmeric & Ginger Berry Ice Cream</h3>
+          <h4 class="card-text">₹197</h4>
+          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3">
+      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+        <img src="https://i.pinimg.com/564x/c1/df/f7/c1dff7ca2614414840ce1b485f041efd.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>Vannila Ice Cream</h3>
+          <h4 class="card-text">₹119</h4>
+          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <!--Row 2-->
+    <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+            <img src="https://i.pinimg.com/564x/3c/51/b6/3c51b6cbe2dd56cca60033c616d54b83.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>Black Forest Ice Cream</h3>
+              <h4 class="card-text">₹209</h4>
+              <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-3">
+          <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+            <img src="https://i.pinimg.com/564x/60/00/55/600055e371e0e0bd644d60ba2f0ff6bc.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>Strawberry Ice Cream</h3>
+              <h4 class="card-text">₹129</h4>
+              <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-3">
+          <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+            <img src="https://i.pinimg.com/564x/2c/cb/ff/2ccbff88e23f06bf10e656d1e70bad6c.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>Black Forest Ice Cream</h3>
+              <h4 class="card-text">₹187</h4>
+              <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-3">
+          <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+            <img src="https://i.pinimg.com/564x/c1/df/f7/c1dff7ca2614414840ce1b485f041efd.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>Vannila Ice Cream</h3>
+              <h4 class="card-text">₹119</h4>
+              <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+            </div>
+          </div>
+        </div>
+    
+        </div>
+
+        <!--Row 3-->
+        <div class="row mt-3">
+            <div class="col-md-3">
+              <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                <img src="https://i.pinimg.com/564x/3c/51/b6/3c51b6cbe2dd56cca60033c616d54b83.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>Black Forest Ice Cream</h3>
+                  <h4 class="card-text">₹209</h4>
+                  <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-3">
+              <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                <img src="https://i.pinimg.com/564x/60/00/55/600055e371e0e0bd644d60ba2f0ff6bc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>Strawberry Ice Cream</h3>
+                  <h4 class="card-text">₹129</h4>
+                  <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-3">
+              <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                <img src="https://i.pinimg.com/564x/2c/cb/ff/2ccbff88e23f06bf10e656d1e70bad6c.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>Black Forest Ice Cream</h3>
+                  <h4 class="card-text">₹187</h4>
+                  <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-3">
+              <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                <img src="https://i.pinimg.com/564x/c1/df/f7/c1dff7ca2614414840ce1b485f041efd.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>Vannila Ice Cream</h3>
+                  <h4 class="card-text">₹119</h4>
+                  <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                </div>
+              </div>
+            </div>
+        
+            </div>
+
+            <!--Row 4-->
+            <div class="row mt-3">
+                <div class="col-md-3">
+                  <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                    <img src="https://i.pinimg.com/564x/3c/51/b6/3c51b6cbe2dd56cca60033c616d54b83.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3>Black Forest Ice Cream</h3>
+                      <h4 class="card-text">₹209</h4>
+                      <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-md-3">
+                  <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                    <img src="https://i.pinimg.com/564x/60/00/55/600055e371e0e0bd644d60ba2f0ff6bc.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3>Strawberry Ice Cream</h3>
+                      <h4 class="card-text">₹129</h4>
+                      <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-md-3">
+                  <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                    <img src="https://i.pinimg.com/564x/2c/cb/ff/2ccbff88e23f06bf10e656d1e70bad6c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3>Black Forest Ice Cream</h3>
+                      <h4 class="card-text">₹187</h4>
+                      <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-md-3">
+                  <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                    <img src="https://i.pinimg.com/564x/c1/df/f7/c1dff7ca2614414840ce1b485f041efd.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3>Vannila Ice Cream</h3>
+                      <h4 class="card-text">₹119</h4>
+                      <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+            
+                </div>
+
+                <!--Row 5-->
+                <div class="row mt-3">
+                    <div class="col-md-3">
+                      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                        <img src="https://i.pinimg.com/564x/3c/51/b6/3c51b6cbe2dd56cca60033c616d54b83.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3>Black Forest Ice Cream</h3>
+                          <h4 class="card-text">₹209</h4>
+                          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="col-md-3">
+                      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                        <img src="https://i.pinimg.com/564x/60/00/55/600055e371e0e0bd644d60ba2f0ff6bc.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3>Strawberry Ice Cream</h3>
+                          <h4 class="card-text">₹129</h4>
+                          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="col-md-3">
+                      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                        <img src="https://i.pinimg.com/564x/2c/cb/ff/2ccbff88e23f06bf10e656d1e70bad6c.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3>Black Forest Ice Cream</h3>
+                          <h4 class="card-text">₹187</h4>
+                          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="col-md-3">
+                      <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                        <img src="https://i.pinimg.com/564x/c1/df/f7/c1dff7ca2614414840ce1b485f041efd.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h3>Vannila Ice Cream</h3>
+                          <h4 class="card-text">₹119</h4>
+                          <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                
+                    </div>
+
+                     <!--Row 6-->
+                     <div class="row mt-3">
+                      <div class="col-md-3">
+                        <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                          <img src="https://i.pinimg.com/564x/3c/51/b6/3c51b6cbe2dd56cca60033c616d54b83.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Black Forest Ice Cream</h3>
+                            <h4 class="card-text">₹209</h4>
+                            <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-md-3">
+                        <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                          <img src="https://i.pinimg.com/564x/60/00/55/600055e371e0e0bd644d60ba2f0ff6bc.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Strawberry Ice Cream</h3>
+                            <h4 class="card-text">₹129</h4>
+                            <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-md-3">
+                        <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                          <img src="https://i.pinimg.com/564x/2c/cb/ff/2ccbff88e23f06bf10e656d1e70bad6c.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Black Forest Ice Cream</h3>
+                            <h4 class="card-text">₹187</h4>
+                            <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-md-3">
+                        <div class="card shadow-lg mb-5 bg-body rounded" style="width: 20rem;">
+                          <img src="https://i.pinimg.com/564x/c1/df/f7/c1dff7ca2614414840ce1b485f041efd.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Vannila Ice Cream</h3>
+                            <h4 class="card-text">₹119</h4>
+                            <a class="btn btn-dark" id="btn1" type="submit" href="login.html">Buy Now</a>
+                          </div>
+                        </div>
+                      </div>
+                  
+                      </div>
+
+
+
+
+
+                      <footer>
+        
+                        <div class="row ">
+                          <div class="col-md-4 text-center">
+                            <h5>Office Address</h5>
+                            <p>2nd floor, Commerce House 4,
+                              besides shell petrol pump, Prahladnagar
+                              Anandnagar road, Ahmedabad-380015,
+                              Corporate office : 079 4020 9000
+                              
+                              </p>
+                          </div>
+                      
+                          <div class="col-md-4 text-center" id="footer1">
+                            <h5>Quick Links</h5>
+                            <ul>
+                              
+                              <li><a>Products</a></li>
+                              <li><a>Explore</a></li>
+                              <li><a>About us</a></li>
+                              <li><a>Contact</a></li>
+                            </ul>
+                          </div>
+                      
+                          <div class="col-md-4" id="footer2">
+                            <h5>Follow us on</h5>
+                            <ul>
+                              <li><i class="bi bi-facebook pe-2 "></i></li>
+                              <li><i class="bi bi-instagram pe-2"></i></li>
+                              <li><i class="bi bi-twitter pe-2"></i></li>
+                              <li><i class="bi bi-linkedin pe-2"></i></li>
+                            </ul>
+                          </div>
+                        </div>
+                      
+                      </footer>
+                      
+                      
+                      
+                      
+                      
+                      <!--Bootstrap cdn for js-->
+                      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                      </body>
+                      </html>
